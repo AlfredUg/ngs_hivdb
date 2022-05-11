@@ -1,0 +1,78 @@
+{% extends "hivdb/base.html" %}
+<!--  load the static files -->
+{% load static %}
+{% block title %}
+        <title>HIVSeqDB | About us</title>
+{% endblock %}
+
+<!--  insert page specific css files in the css block-->
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static "hivdb/custom/css/about-us.css" %}">    
+{% endblock %}
+<!-- page content starts here -->
+{% block content %}
+<!--  section of page content -->
+<section class="section">
+    <div class="container">
+        <h2>About HIVseqDB</h2>
+        <!--   Data collection details -->
+        <button class="collapsible">
+            Data collection and processing
+        </button>
+        <div class="content">
+          <p>Work in progress</p>
+        </div>
+        <!--   Privacy statement details   -->
+        <br>
+        <button class="collapsible">
+            Privacy statement
+        </button>
+        <div class="content">
+          <p>Work in progress</p>
+        </div>
+        <!--   Data sharing details   -->
+        <br>
+        <button class="collapsible">
+            Data sharing policy
+        </button>
+        <div class="content">
+          <p>Work in progress</p>
+        </div>
+        <br>
+        <!--   Team members' details  -->
+        <button class="collapsible">
+            The team
+        </button>
+        <div class="content">
+          <p>Work in progress</p>
+        </div>
+        <br>
+        <!--   Contact us details   -->
+        <button class="collapsible">
+            Contact us
+        </button>
+        <div class="content">
+          <p>Work in progress</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block js%}
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+{% endblock %}

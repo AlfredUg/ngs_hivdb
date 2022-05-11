@@ -1,0 +1,60 @@
+{% extends "hivdb/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block css %}
+<style>
+
+.container{
+    background:#D3D3D3;;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.upload {
+  border-radius: 3px;
+  padding: 5px 20px 15px 20px;
+  background-color: #f2f2f2;
+  width: 400px;
+  margin: 0 auto;
+/*   transform: translate(90%); */
+}
+    
+.btn {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  width: 70%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #89CFF0;
+}
+        
+    a{
+        color:#2980b9;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    <section>
+        <h3></h3>
+        <div class=container>
+            <div class="upload"  align="center">
+            <h3>Choose kind of data to upload</h3>
+            <a href="/hivdb/upload-fastqs/"><button type="submit" class="btn">FASTQ files</button></a>
+            <a href="/hivdb/upload-participants/"><button type="submit" class="btn">Participant demographics</button></a>
+            <a href="/hivdb/upload-samples/"><button type="submit" class="btn">Sample/laboratory data</button></a>
+            <a href="/hivdb/upload-regimens/"><button type="submit" class="btn">Treatment history of participants</button></a>
+            <a href="/hivdb/upload-sequences/"><button type="submit" class="btn">Amino acid sequence data</button></a>
+            <p>Refer to <a href="#"> detailed guidelines</a> for acceptable data formats</p>
+            </div> 
+        </div>
+    </section>
+{% endblock %}

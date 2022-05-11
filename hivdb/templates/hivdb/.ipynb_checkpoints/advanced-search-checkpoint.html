@@ -1,0 +1,274 @@
+{% extends "hivdb/base.html" %}
+{% load static %}
+
+<!-- {% block top_js%}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+{% endblock %} -->
+{% block content %}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 85%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container-search {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type=date] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #2980b9;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 20%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #89CFF0;
+}
+
+a {
+/*   color: #2196F3; */
+    
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+</style>
+<body>
+<div class="row">
+  <div class="col-75">
+      <h2>Advanced search interface</h2>
+    <div class="container-search">
+      <form action="#">
+        <div class="row">
+          <div class="col-25">
+            <h3>Participants parameters</h3>
+            <div class="row">
+              <div class="col-50">
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" name="gender" placeholder="e.g Male">
+              </div>
+              <div class="col-50">
+                <label for="region">Region</label>
+                <input type="text" id="region" name="region" placeholder="e.g Central">
+              </div>
+                <div class="col-50">
+                <label for="district">District</label>
+                <input type="text" id="district" name="district" placeholder="e.g Kampala">
+              </div>
+              <div class="col-50">
+                <label for="marital">Marital status</label>
+                <input type="text" id="marital" name="marital" placeholder="e.g Single">
+              </div><div class="col-50">
+                <label for="education">Education</label>
+                <input type="text" id="education" name="education" placeholder="e.g Primary">
+              </div>
+              <div class="col-50">
+                <label for="religion">Religion</label>
+                <input type="text" id="religion" name="religion" placeholder="e.g Anglican">
+              </div>
+                <div class="col-50">
+                <label for="lab">County</label>
+                <input type="text" id="lab" name="lab" placeholder="e.g Kawempe">
+              </div>
+              <div class="col-50">
+                <label for="lab">Tribe</label>
+                <input type="text" id="lab" name="lab" placeholder="e.g Muganda">
+              </div>
+                <div class="col-50">
+                <label for="nationality">Nationality</label>
+                <input type="text" id="nationality" name="nationality" placeholder="e.g Ugandan">
+              </div>
+            
+                <div class="col-50">
+                <label for="employment">Employment</label>
+                <input type="text" id="employment" name="employment" placeholder="e.g Skilled">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-25">
+            <h3>Sample parameters</h3>
+            <div class="row">
+              <div class="col-50">
+                <label for="specimen">Specimen</label>
+                <input type="text" id="specimen" name="specimen" placeholder="plasma">
+              </div>
+              <div class="col-50">
+                <label for="lab">Submitting lab</label>
+                <input type="text" id="lab" name="lab" placeholder="EBB">
+              </div>
+              <div class="col-50">
+                <label for="lab">Volume</label>
+                <input type="text" id="lab" name="lab" placeholder="e.g 15-40">
+              </div>
+              <div class="col-50">
+                <label for="lab">CD4</label>
+                <input type="text" id="lab" name="lab" placeholder="e.g 30-35">
+              </div>
+              <div class="col-50">
+                <label for="lab">Viral load</label>
+                <input type="text" id="lab" name="lab" placeholder="e.g 1000-13000">
+              </div>
+              <div class="col-50">
+                <label for="lab">Cells</label>
+                <input type="text" id="lab" name="lab" placeholder="e.g 1000-13000">
+              </div>
+                <div class="col-50">
+                <label for="lab">Viral load</label>
+                <input type="text" id="lab" name="lab" placeholder="e.g 1000-13000">
+              </div>
+              <div class="col-50">
+                <label for="lab">Cells</label>
+                <input type="text" id="lab" name="lab" placeholder="e.g 1000-13000">
+              </div>
+                <div class="col-50">
+                <label for="lab">Sampling date ranges</label>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-50">
+                <input type="date" id="low_regimen_date" name="low_regimen_date">
+              </div>
+                <div class="col-50">
+                <input type="date" id="up_regimen_date" name="up_regimen_date">
+              </div>
+            </div>
+          </div>
+            
+        <div class="col-25">
+            <h3>Sequence parameters</h3>
+            <div class="row">
+              <div class="col-50">
+                <label for="specimen">Gene</label>
+                <input type="text" id="specimen" name="specimen" placeholder="PR, RT, IN">
+              </div>
+              <div class="col-50">
+                <label for="lab">Sequencing technology</label>
+                <input type="text" id="lab" name="lab" placeholder="Sanger, Illumina, PacBio">
+              </div>
+              <div class="col-50">
+                <label for="lab">Sequencing date range</label>
+              </div>
+            </div>            
+            <div class="row">
+                <div class="col-50">
+                <input type="date" id="low_regimen_date" name="low_regimen_date">
+              </div>
+                <div class="col-50">
+                <input type="date" id="up_regimen_date" name="up_regimen_date">
+              </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-50">
+                    <h3>Treatment history</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                <label for="lab">Regimen</label>
+                <input type="text" id="lab" name="lab" placeholder="DTG">
+              </div>
+                <div class="col-50">
+                <label for="lab">Drug class</label>
+                <input type="text" id="lab" name="lab" placeholder="PI, NRTI, NNRTI, INSTI">
+              </div>
+            <div class="col-50">
+                <label for="lab">ART start date range</label>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                <input type="date" id="low_regimen_date" name="low_regimen_date">
+              </div>
+                <div class="col-50">
+                <input type="date" id="up_regimen_date" name="up_regimen_date">
+              </div>
+                
+            </div>
+          </div>
+          
+        </div>
+          <div align="center">
+        <input type="submit" value="Search" class="btn" align="center">
+         </div>
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+ </div>
+</div>
+{% endblock %}

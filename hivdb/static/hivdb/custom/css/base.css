@@ -1,0 +1,124 @@
+        
+        body {
+/*         margin: 0; */
+        font-family: "Muli", sans-serif;
+        width: 85%;
+        margin: auto; 
+        font-size: 15px;
+        line-height: 1.75;
+        text-align: left;
+        background-color: #fff;
+        padding: 0;
+        min-height: 100%;
+/*         font-weight: 400; */
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background: #2980b9 ;/*linear-gradient(to bottom, rgb(6, 108, 224),  rgb(14, 48, 122));*/
+          width: 100%;
+          padding; 0em;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        .topnav .right {
+            float: right;
+            padding: 14px 16px;
+        }
+        
+        .topnav a.active {
+          background-color: #4CAF50;
+          color: white;
+        }
+
+         /* The dropdown container */
+        .dropdown {
+        float: left;
+        }
+
+        .topnav .dropdown:hover .dropbtn {
+          background-color: #ddd;
+          color: black;
+        }
+       
+        /*add css for sticky nav bar*/
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            }
+
+        .sticky + .content {
+        padding-top: 60px;
+        }
+
+        .logo {
+            width:100%;
+            height:relative;
+            float:left;
+            background:#F8F8F8;
+        }
+        
+         .logo_text {
+            color: #2980b9 ;
+             font-size: 40px; 
+             position: absolute;
+             padding-top: 30px;
+             font-family: bold;
+        }
+        
+        .logo_text_slogan {
+             color: black;
+             font-size: 15px; 
+             position: absolute;
+             padding-top: 90px;
+            
+/*             font-style: italic; */
+
+        }
+
+        .container-wrapper {
+            background-color:#fff;/*linear-gradient(blue,green);*/
+        }
+        .multicolortext {
+            background-image: linear-gradient(to left, indigo, green, blue);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .row {
+              display: flex;
+        }
+
+        /* Create two equal columns that sits next to each other */
+        .column {
+          flex: 25%;
+          padding: 30px;
+          color: #fff;
+        }
+
+        .row2 {
+          display: flex;
+        }
+
+        /* Create two equal columns that sits next to each other */
+        .column2 {
+          flex: 100%;
+          padding: 10px;
+          color: #fff;
+        }

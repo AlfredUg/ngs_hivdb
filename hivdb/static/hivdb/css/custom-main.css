@@ -1,0 +1,198 @@
+
+html, body {
+  height: 100%;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 40px;
+  flex: 1 0 auto;
+}
+
+.bg-mibio {
+  background-color: #337ab7;
+}
+
+#logo {
+  position: absolute;
+  /* display:flex; */
+  top: 20px;
+}
+
+#logotext {
+  /* position: absolute; */
+  /* display:flex; */
+  margin-left: 50px;
+}
+
+/* CHECKBOXES */
+.search_type {
+  display: inline-block;
+  /* text-align: center; */
+  /* margin-left: 18%; */
+  margin-top: 20px;
+}
+
+.search_type .regular-checkbox {
+  background-color: #688dc157;
+}
+
+.search_type label {
+  display: inline;
+}
+
+.search_type .regular-checkbox {
+  display: none;
+}
+
+.search_type .regular-checkbox+label {
+  background-color: #688dc157;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.search_type .regular-checkbox+label:active,
+.regular-checkbox:checked+label:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.search_type .regular-checkbox:checked+label {
+  background-color: #688dc1;
+  border: 1px solid #adb8c0;
+  color: #000;
+}
+
+.search_type .regular-checkbox:checked+label:after {
+  content: '\2714';
+  font-size: 10px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #fff;
+}
+
+
+.search_type .big-checkbox+label {
+  padding: 18px;
+  width: 96px;
+  height: 80px;
+  margin: 12px 37px 10px;
+}
+
+.search_type .big-checkbox:checked+label:after {
+  font-size: 28px;
+  left: 6px;
+}
+
+.search_type #checkbox_2_1 {
+  background-image: url(../img/noun_Disease_2078983.svg);
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+}
+
+.search_type #checkbox_2_2 {
+  background-image: url(../img/noun_Drug_2227411.svg);
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+}
+
+.search_type #checkbox_2_3 {
+  background-image: url(../img/noun_choice_of_option_2765906.svg);
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+}
+
+.search_type #checkbox_2_4 {
+  background-image: url(../img/noun_genes_1767492.svg);
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+}
+
+/* RESULTS */
+.result-container {
+  border: #688dc157 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+.list-data {
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
+}
+.snippet {
+  font-size: 0.9em;
+  color: #27405e;
+  font-weight: 200;
+}
+.title {
+  font-size: 1em;
+  color: #27405e;
+  /* font-weight: 500; */
+  margin-top: 40px;
+  text-decoration: none;
+}
+.empty-section {
+  margin-top: 10%;
+  text-align: center;
+  font-style: italic;
+}
+
+.page-footer{
+  background-color: #337ab7;
+  color: #ffffff;
+  position:initial;
+  bottom:0;
+  width:100%;
+  height:140px;
+  padding: 4px 30px 0px 30px;
+  flex-shrink: 0;
+}
+
+.col .footer-link {
+  color: #fff;
+}
+
+.page-footer a {
+     color: #fff;
+}
+
+#detail-table th {
+  font-size: 16px;
+}
+
+#detail-table tr {
+  font-size: 14px;
+}
+
+/* @media (min-width: 1200px){
+  .container {
+      max-width: 1140px;
+      min-height: 800px;
+  }
+} */
+
+.page-footer .container-fluid, .page-footer .row {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}

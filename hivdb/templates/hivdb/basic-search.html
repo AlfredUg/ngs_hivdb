@@ -1,0 +1,95 @@
+{% extends "hivdb/base.html" %}
+{% load static %}
+{% block content %}
+    <style>
+        .advanced-search{
+            float:right;
+            color:blue;
+            margin-right: 10px;
+        }
+        .advanced-search a{
+            color:#0096FF;
+        }
+        
+        .basic-search{
+            width:100%;
+        }
+    </style>
+    <div class=advanced-search>
+          <a href="/hivdb/advanced-search/">Advanced search</a>
+    </div>
+    <section>
+        <h3>Dummy Data display for participants</h3>
+        <table id="search" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>ParticipantID</th>
+                    <th>Region</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Nationality</th>
+                    <th>Religion</th>
+                    <th>Employment</th>
+                    <th>Tribe</th>
+                    <th>Education</th>
+                    <th>Marital status</th>
+                    <th>District</th>
+                    <th>Sub county</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for participant in participants %}
+                <tr>
+                    <td>{{participant.name}}</td>
+                    <td>{{participant.region}}</td>
+                    <td>{{participant.age}}</td>
+                    <td>{{participant.gender}}</td>
+                    <td>{{participant.nationality}}</td>
+                    <td>{{participant.religion}}</td>
+                    <td>{{participant.employment}}</td>
+                    <td>{{participant.tribe}}</td>
+                    <td>{{participant.education}}</td>
+                    <td>{{participant.maritalStatus}}</td>
+                    <td>{{participant.district}}</td>
+                    <td>{{participant.district}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endblock %}
+
+{% block js %}
+ <script>
+    $(document).ready(function() {
+     $('#search').DataTable({
+         language: {
+             searchPanes: {
+                 clearMessage: 'Obliterate Selections',
+                 collapse: {0: 'Click here for filters', _: 'Current filters (%d)'}
+             }
+         },
+         buttons: [
+             {
+                 extend: 'searchPanes',
+                 config: {
+                     cascadePanes: true,
+                 }
+             },
+             {
+                 extend: 'csv',
+                 text:'Download table'
+             },
+             {
+                 extend: 'copy',
+                 text:'Copy table to clipboard'
+             }
+ 
+         ],
+         "scrollX": true,
+         "scrollY":true,
+         dom: 'Bfrtip'
+     });
+ }); 
+ </script>
+{% endblock %}

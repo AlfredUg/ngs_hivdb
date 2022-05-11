@@ -1,0 +1,39 @@
+
+{% load static %}
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HIVSeqDB | Login</title>
+    <link rel="icon" type="image/x-icon" href="{% static "hivdb/images/logo2.png" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "hivdb/css/login.css" %}">
+  </head>
+
+  <body>
+    <div class="center">
+        <br>
+        <div class="logo" align="center">
+        <img src="{% static "hivdb/images/logo2.png" %}" height="80">
+        </div>
+      <h1>Sign in to HIVseqDB</h1>
+        <br>
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br>
+        <div>
+            <input type="submit" value="Log In">
+        </div>
+        <div class="signup_link">
+           <a href="#">Forgotten password?</a>
+        </div>
+        <div class="signup_link">
+          <a href="/hivdb/home/">Home</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
+

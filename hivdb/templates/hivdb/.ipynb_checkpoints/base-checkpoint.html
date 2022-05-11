@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+{% load static %}
+<html>    
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="{% static "hivdb/images/logo2.png" %}">
+        {% block title %}
+        {% endblock %}
+        <!--   template block for page specific js files       -->
+        {% block top_js %}
+        {% endblock %}
+        <!--   template block for page specific css files       -->
+        {% block css %}
+        {% endblock %} 
+        <!--    site-wide js files       -->
+        <script type="text/javascript" src="{% static "hivdb/custom/js/jquery-3.5.1.js" %}"></script>
+        <script type="text/javascript" src="{% static "hivdb/custom/js/jquery.dataTables.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "hivdb/custom/js/dataTables.searchPanes.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "hivdb/custom/js/dataTables.select.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "hivdb/custom/js/dataTables.buttons.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "hivdb/custom/js/buttons.flash.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "hivdb/custom/js/buttons.html5.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "hivdb/custom/js/buttons.print.min.js" %}"></script>
+        <!--    site-wide css files       -->
+        <link rel="stylesheet" type="text/css" href="{% static "hivdb/custom/css/jquery.dataTables.min.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "hivdb/custom/css/searchPanes.dataTables.min.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "hivdb/custom/css/select.dataTables.min.css" %}">  
+        <link rel="stylesheet" type="text/css" href="{% static "hivdb/custom/css/buttons.dataTables.min.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "hivdb/custom/css/base.css" %}">        
+    </head>
+    <!--  page body starts here    -->
+    <body>
+        <header>
+            <!--    logo division starts here     -->
+             <div class="logo">
+                <img src="{% static "hivdb/images/logo2.png" %}" height="150">
+                 <a class="logo_text"><Strong>MetagenomeDB</Strong></a>
+                 <a class="logo_text_slogan">The metagenome resource at Uganda Virus Research Institute</a>
+            </div> 
+            <!--    logo division ends here       -->
+            
+            <!--    navigation bar starts here       -->
+            <div class="topnav" id="navbar">
+                <a href="/hivdb/home/">Home</a> <!--class="active" -->
+                <a href="/hivdb/about/">About the database</a>
+                <a href="/hivdb/basic-search/">Search database</a>
+                <a href="#">Analysis</a>
+                {% if request.user.is_authenticated %}
+                <a class="right" href="/hivdb/logout/">Log out</a>
+                {% else %}
+                <a class="right" href="/hivdb/login/">Login</a>
+                {% endif %}
+                <a class="right" href="/hivdb/uploads/">Upload data</a>
+            </div>
+             <!--    navigation bar ends here       -->
+        </header>
+        <!--    header division ends here       -->
+    <div class="container-wrapper">
+        <!--put section content here--> 
+        {% block content %}
+        {% endblock %}
+        <br>
+        <div class="row">
+              <div class="column" style="background-color:#808080;" align="left">
+                <ul style="list-style-type:none;">
+                  <li><h3>Quick links</h3></li>
+                  <li>Home</li>
+                  <li>About us</li>
+                  <li>Search</li>
+                  <li>Analysis</li>
+                </ul> 
+          </div>
+          <div class="column" style="background-color:#808080;" align="left">
+            <ul style="list-style-type:none;">
+              <li><h3>Partners</h3></li>
+              <li>MRC/UVRI and LSTHM</li>
+              <li>Ministry of Health</li>
+              <li>Makerere university</li>
+              <li>PANGEA</li>
+            </ul> 
+          </div>
+            <div class="column" style="background-color:#808080;" align="left">
+            <ul style="list-style-type:none;">
+              <li><h3>External links</h3></li>
+              <li>Stanford HIVDR database</li>
+              <li>Losalamos HIV database</li>
+              <li>UK HIVDR database</li>
+              <li>French HIVDR database</li>
+            </ul> 
+          </div>
+            <div class="column" style="background-color:#808080;" align="left">
+                <ul style="list-style-type:none;">
+                  <li><h3>Contact us</h3></li>
+                  <li>Email: hivseqdb@uvri.go.ug</li>
+                  <li>Location: 51/59, Nakiwogo Road, Entebbe, Uganda</li>
+                </ul> 
+          </div>
+        </div>
+        <div class="row2">
+            <div class="column2" style="background-color:#404040">
+            <p align="center"> &copy; <script>document.write(new Date().getFullYear())</script>
+                Uganda Virus Research Institute, All Rights Reserved.
+            </p>        
+          </div>
+        </div>
+    </div>            
+</body>
+<!--put section content here--> 
+{% block js %}
+{% endblock %}
+<!--     <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>  -->
+</html>

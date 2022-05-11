@@ -1,0 +1,60 @@
+{% extends "hivdb/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block css %}
+<style>
+
+.container{
+    background:#D3D3D3;;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.upload {
+  border-radius: 3px;
+  padding: 5px 20px 15px 20px;
+  background-color: #f2f2f2;
+  width: 400px;
+  transform: translate(90%);
+}
+    
+.btn {
+  background-color: #2980b9;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 50%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #89CFF0;
+}
+        
+    a{
+        color:green;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    <section>
+        <div class=container>
+            <div class="upload" align="left">
+            <h3>Uploading participant information</h3>
+            <p>Use the form below to upload participants' demographics and social-economic data. Kindly refer to the <a href="#">template</a>
+            for the format, required fields and field names.</p>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ participants_form|crispy }}
+             <button type="submit" class="btn btn-primary" name='upload_participant_form'>Upload participants</button>
+        </form>    
+                Want to upload other kind of data? Check <a href="/hivdb/uploads">options here</a>
+        </div> 
+        </div>
+    </section>
+{% endblock %}
