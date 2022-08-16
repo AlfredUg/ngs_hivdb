@@ -126,3 +126,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 GDAL_LIBRARY_PATH = os.environ.get('GDAL_LIBRARY_PATH')
 
+#LOGIN_URL = 'login' # this is the name of the url
+
+LOGOUT_REDIRECT_URL = 'home' # this is the name of the url
+
+LOGIN_REDIRECT_URL = 'home' # this is the name of the url
