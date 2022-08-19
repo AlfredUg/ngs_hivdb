@@ -16,7 +16,7 @@
   padding: 5px 20px 15px 20px;
   background-color: #f2f2f2;
   width: 400px;
-  transform: translate(90%);
+  margin: 0 auto;
 }
     
 .btn {
@@ -45,17 +45,19 @@
     <section>
         <div class=container>
             <div class="upload" align="left">
-            <h3>Uploading raw FASTQ files</h3>
-            <p>Use the form below to upload raw NGS data in FASTQ format. Kindly refer to the <a href="#">template</a>
+            <h3>Uploading sample information</h3>
+            <p>Use the form below to upload sample data. Kindly refer to the <a href="#">template</a>
             for the format, required fields and field names.</p>
-            <form method="post" enctype="multipart/form-data">
+        <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            {{ fastqs_form|crispy }}
-            <button type="submit" class="btn" name='upload_fastqs_form'>Upload Fastq files</button>
+            {{ samples_form|crispy }}
+            <button type="submit" class="btn" name='upload_sample_form'>Upload samples</button>
             <br>
-        </form>    
+        </form>   
                 Want to upload other kind of data? Check <a href="/hivdb/uploads">options here</a>
         </div> 
         </div>
     </section>
 {% endblock %}
+
+

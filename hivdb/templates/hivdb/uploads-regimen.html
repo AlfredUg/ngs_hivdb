@@ -45,13 +45,13 @@
     <section>
         <div class=container>
             <div class="upload" align="left">
-            <h3>Uploading raw FASTQ files</h3>
-            <p>Use the form below to upload raw NGS data in FASTQ format. Kindly refer to the <a href="#">template</a>
+            <h3>Uploading participant treatment history</h3>
+            <p>Use the form below to update treatment history. Kindly refer to the <a href="#">template</a>
             for the format, required fields and field names.</p>
             <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            {{ fastqs_form|crispy }}
-            <button type="submit" class="btn" name='upload_fastqs_form'>Upload Fastq files</button>
+            {{ participant_regimen_form|crispy }}
+            <button type="submit" class="btn" name='upload_participant_regimen_form'>Upload data</button>
             <br>
         </form>    
                 Want to upload other kind of data? Check <a href="/hivdb/uploads">options here</a>

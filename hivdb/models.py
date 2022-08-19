@@ -29,7 +29,7 @@ class sample(models.Model):
     plasma=models.IntegerField(default=0) 
     cd4=models.IntegerField(default=0) 
     viralLoad=models.IntegerField(default=0) 
-    tube=models.IntegerField(default=0) 
+    tube=models.CharField(max_length=250, default="NA") 
     btebb=models.DateField(default=timezone.now) 
     dopsep=models.DateField(default=timezone.now)
 
@@ -41,6 +41,7 @@ class sequence(models.Model):
     date_updated=models.DateField(default=timezone.now)
     host=models.CharField(max_length=50, default="Human")
     gene=models.CharField(max_length=10, default="NA")
+    length=models.IntegerField(default=0) 
     subtype=models.CharField(max_length=10, default="NA")
     sequencing_platform=models.CharField(max_length=50, default="NA")
     residues=models.CharField(max_length=50, default="NA") #sequence/link to ngs file(s)
