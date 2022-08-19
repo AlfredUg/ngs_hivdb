@@ -7,7 +7,7 @@ This is the the HIV drug resistance database at Uganda Virus Research Virus (UVR
 
 create virtual environment
 
-virtualenv -p python3 uhivdb
+`virtualenv -p python3 uhivdb`
 
 activate the new virtual environment (source uhivdb/bin/activate)
 
