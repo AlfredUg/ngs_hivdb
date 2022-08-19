@@ -9,11 +9,21 @@ create virtual environment
 
 `virtualenv -p python3 uhivdb`
 
-activate the new virtual environment (source uhivdb/bin/activate)
+Activate the new virtual environment 
+
+`source uhivdb/bin/activate`
 
 clone the repository from GitHub
 
 `git clone https://github.com/AlfredUg/ngs_hivdb.git`
+
+Navigate to cloned project
+
+`cd ngs_hivdb`
+
+Update the environment by installing dependancies
+
+`pip install -r requirements`
 
 Make migrations 
 
