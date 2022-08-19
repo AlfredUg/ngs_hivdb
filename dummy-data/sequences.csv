@@ -1,0 +1,101 @@
+﻿accession,species,date_created,date_updated,host,gene,length,subtype,sequencing_platform
+MW892602,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Illumina
+MW892603,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,D,Illumina
+MW892604,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW892605,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW341596,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Oxford nanapore
+MW341597,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,D,Illumina
+MW341598,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Illumina
+MW341599,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Sanger
+MW341600,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,C,Oxford nanapore
+MW341601,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,A,Illumina
+MW341602,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,A,Illumina
+MW341603,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,AD,Sanger
+MW341604,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,AD,Sanger
+MW341605,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,AD,Oxford nanapore
+MW341606,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,ISR,Illumina
+MW341607,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,ISR,Illumina
+MW341608,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,ISR,Sanger
+MW341609,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,B,Oxford nanapore
+MW341610,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,B,Illumina
+MW341611,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Illumina
+MW341612,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Sanger
+MW341613,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW341614,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,A,Oxford nanapore
+MW341615,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,D,Illumina
+MW341616,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,A,Illumina
+MW341617,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,A,Sanger
+MW341618,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,A,Oxford nanapore
+MW341619,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,D,Illumina
+MW341620,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Illumina
+MW341621,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Sanger
+MW341622,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Sanger
+MW341623,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Oxford nanapore
+MW341624,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Illumina
+MW341625,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,AD,Illumina
+MW341626,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,AD,Sanger
+MW341627,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,AD,Oxford nanapore
+MW341628,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,ISR,Illumina
+MW341629,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,ISR,Illumina
+MW341630,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,ISR,Sanger
+MW341631,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,B,Sanger
+MW341632,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,B,Oxford nanapore
+MW341633,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,C,Illumina
+MW341634,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Illumina
+MW341635,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW341636,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Oxford nanapore
+MW341637,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,D,Illumina
+MW341638,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Illumina
+MW341639,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW341640,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW341641,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,D,Oxford nanapore
+MW341642,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,C,Illumina
+MW341643,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,C,Illumina
+MW341644,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,C,Sanger
+MW341645,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,A,Oxford nanapore
+MW341646,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,A,Illumina
+MW341647,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,AD,Illumina
+MW341648,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,AD,Sanger
+MW341649,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,AD,Sanger
+MW341650,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,ISR,Oxford nanapore
+MW341651,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,ISR,Illumina
+MW341652,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,ISR,Illumina
+MW341653,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,B,Sanger
+MW341654,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,B,Oxford nanapore
+MW341655,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Illumina
+MW341656,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,C,Illumina
+MW341657,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,A,Sanger
+MW341658,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,A,Sanger
+MW341659,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,D,Oxford nanapore
+MW341660,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,A,Illumina
+MW341661,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,A,Illumina
+MW341662,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW341663,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,D,Oxford nanapore
+MW341664,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Illumina
+MW341665,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Illumina
+MW341666,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Sanger
+MW341667,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW341668,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Oxford nanapore
+MW341669,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,AD,Illumina
+MW341670,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,AD,Illumina
+MW341671,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,AD,Sanger
+MW341672,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,ISR,Oxford nanapore
+MW341673,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,ISR,Illumina
+MW341674,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,ISR,Illumina
+MW341675,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,B,Sanger
+MW341676,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,B,Sanger
+MW341677,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Oxford nanapore
+MW341678,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,C,Illumina
+MW341679,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Illumina
+MW341680,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Sanger
+MW341681,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,D,Oxford nanapore
+MW341682,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Illumina
+MW341683,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Illumina
+MW341684,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,A,Sanger
+MW341685,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,D,Sanger
+MW341686,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,NFL,0,C,Oxford nanapore
+MW341687,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,C,Illumina
+MW341688,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,C,Illumina
+MW341689,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,IN,0,A,Sanger
+MW341690,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,A,Oxford nanapore
+MW341691,Human immunodeficiency virus,2020-02-16,2020-02-16,Human,pol,0,AD,Illumina

@@ -1,0 +1,5 @@
+drug1,drug2,drug3,abbreviation,description,treatmentLine
+TDF,3TC,EFV,TDF+3TC+EFV,TDF+3TC+EFV,First
+AZT,3TC,DTG,AZT+3TC+DTG,AZT+3TC+DTG,Second
+TDF,3TC,NVP,TDF+3TC+NVP,TDF+3TC+NVP,First
+AZT,3TC,EFV,AZT+3TC+EFV,AZT+3TC+EFV,First
