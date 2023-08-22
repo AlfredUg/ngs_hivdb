@@ -1,0 +1,607 @@
+[
+  {
+    "inputSequence": {
+      "header": "SRR4089895_1_SRR4089895_2_1_hxb2_pol"
+    },
+    "subtypeText": "B",
+    "validationResults": [],
+    "alignedGeneSequences": [
+      {
+        "firstAA": 1,
+        "lastAA": 99,
+        "gene": {
+          "name": "PR",
+          "length": null
+        },
+        "mutations": [
+          {
+            "consensus": "L",
+            "position": 10,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 12,
+            "AAs": "A",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 13,
+            "AAs": "V",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 35,
+            "AAs": "D",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 37,
+            "AAs": "D",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 41,
+            "AAs": "KR",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 43,
+            "AAs": "R",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 57,
+            "AAs": "K",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 61,
+            "AAs": "N",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 63,
+            "AAs": "Q",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 64,
+            "AAs": "V",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "C",
+            "position": 67,
+            "AAs": "W",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 77,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          }
+        ]
+      },
+      {
+        "firstAA": 1,
+        "lastAA": 347,
+        "gene": {
+          "name": "RT",
+          "length": null
+        },
+        "mutations": [
+          {
+            "consensus": "T",
+            "position": 69,
+            "AAs": "NT",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 123,
+            "AAs": "E",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 135,
+            "AAs": "T",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 177,
+            "AAs": "E",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 179,
+            "AAs": "DV",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 211,
+            "AAs": "K",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 245,
+            "AAs": "L",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 248,
+            "AAs": "D",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 272,
+            "AAs": "S",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 277,
+            "AAs": "KR",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 286,
+            "AAs": "A",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 288,
+            "AAs": "S",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 293,
+            "AAs": "V",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 311,
+            "AAs": "KR",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 312,
+            "AAs": "N",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 324,
+            "AAs": "E",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 334,
+            "AAs": "QH",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 335,
+            "AAs": "D",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          }
+        ]
+      }
+    ],
+    "drugResistance": [
+      {
+        "version": {
+          "text": "8.8",
+          "publishDate": "2019-02-13"
+        },
+        "gene": {
+          "name": "PR"
+        },
+        "drugScores": [
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "ATV",
+              "displayAbbr": "ATV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "DRV",
+              "displayAbbr": "DRV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "FPV",
+              "displayAbbr": "FPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "IDV",
+              "displayAbbr": "IDV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "LPV",
+              "displayAbbr": "LPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "NFV",
+              "displayAbbr": "NFV"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "SQV",
+              "displayAbbr": "SQV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "TPV",
+              "displayAbbr": "TPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          }
+        ]
+      },
+      {
+        "version": {
+          "text": "8.8",
+          "publishDate": "2019-02-13"
+        },
+        "gene": {
+          "name": "RT"
+        },
+        "drugScores": [
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "ABC",
+              "displayAbbr": "ABC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "AZT",
+              "displayAbbr": "AZT"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "D4T",
+              "displayAbbr": "D4T"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "DDI",
+              "displayAbbr": "DDI"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "FTC",
+              "displayAbbr": "FTC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "LMV",
+              "displayAbbr": "3TC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "TDF",
+              "displayAbbr": "TDF"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "DOR",
+              "displayAbbr": "DOR"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "EFV",
+              "displayAbbr": "EFV"
+            },
+            "score": 10.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "V179D",
+                    "primaryType": "NNRTI",
+                    "comments": [
+                      {
+                        "type": "NNRTI",
+                        "text": "V179D is a polymorphic accessory NNRTI-selected mutation. It contributes low-levels reductions in susceptibility to each of the NNRTIs. The combination of V179D and K103R act synergistically to reduce NVP and EFV susceptibility. V179D has a weight of 1.0 in the Tibotec ETR genotypic susceptibility score. V179E is a non-polymorphic mutation occasionally selected by NVP and EFV. V179E appears similar to V179D in its effects on NNRTIs. V179D/E do not appear to reduce the virological response to a first-line EFV-containing regimen."
+                      }
+                    ]
+                  }
+                ],
+                "score": 10.0
+              }
+            ],
+            "text": "Potential Low-Level Resistance"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "ETR",
+              "displayAbbr": "ETR"
+            },
+            "score": 10.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "V179D",
+                    "primaryType": "NNRTI",
+                    "comments": [
+                      {
+                        "type": "NNRTI",
+                        "text": "V179D is a polymorphic accessory NNRTI-selected mutation. It contributes low-levels reductions in susceptibility to each of the NNRTIs. The combination of V179D and K103R act synergistically to reduce NVP and EFV susceptibility. V179D has a weight of 1.0 in the Tibotec ETR genotypic susceptibility score. V179E is a non-polymorphic mutation occasionally selected by NVP and EFV. V179E appears similar to V179D in its effects on NNRTIs. V179D/E do not appear to reduce the virological response to a first-line EFV-containing regimen."
+                      }
+                    ]
+                  }
+                ],
+                "score": 10.0
+              }
+            ],
+            "text": "Potential Low-Level Resistance"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "NVP",
+              "displayAbbr": "NVP"
+            },
+            "score": 10.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "V179D",
+                    "primaryType": "NNRTI",
+                    "comments": [
+                      {
+                        "type": "NNRTI",
+                        "text": "V179D is a polymorphic accessory NNRTI-selected mutation. It contributes low-levels reductions in susceptibility to each of the NNRTIs. The combination of V179D and K103R act synergistically to reduce NVP and EFV susceptibility. V179D has a weight of 1.0 in the Tibotec ETR genotypic susceptibility score. V179E is a non-polymorphic mutation occasionally selected by NVP and EFV. V179E appears similar to V179D in its effects on NNRTIs. V179D/E do not appear to reduce the virological response to a first-line EFV-containing regimen."
+                      }
+                    ]
+                  }
+                ],
+                "score": 10.0
+              }
+            ],
+            "text": "Potential Low-Level Resistance"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "RPV",
+              "displayAbbr": "RPV"
+            },
+            "score": 10.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "V179D",
+                    "primaryType": "NNRTI",
+                    "comments": [
+                      {
+                        "type": "NNRTI",
+                        "text": "V179D is a polymorphic accessory NNRTI-selected mutation. It contributes low-levels reductions in susceptibility to each of the NNRTIs. The combination of V179D and K103R act synergistically to reduce NVP and EFV susceptibility. V179D has a weight of 1.0 in the Tibotec ETR genotypic susceptibility score. V179E is a non-polymorphic mutation occasionally selected by NVP and EFV. V179E appears similar to V179D in its effects on NNRTIs. V179D/E do not appear to reduce the virological response to a first-line EFV-containing regimen."
+                      }
+                    ]
+                  }
+                ],
+                "score": 10.0
+              }
+            ],
+            "text": "Potential Low-Level Resistance"
+          }
+        ]
+      }
+    ]
+  }
+]

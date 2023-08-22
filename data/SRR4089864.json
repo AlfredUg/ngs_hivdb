@@ -1,0 +1,543 @@
+[
+  {
+    "inputSequence": {
+      "header": "SRR4089864_1_SRR4089864_2_1_hxb2_pol"
+    },
+    "subtypeText": "B",
+    "validationResults": [],
+    "alignedGeneSequences": [
+      {
+        "firstAA": 1,
+        "lastAA": 99,
+        "gene": {
+          "name": "PR",
+          "length": null
+        },
+        "mutations": [
+          {
+            "consensus": "I",
+            "position": 15,
+            "AAs": "V",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 19,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 37,
+            "AAs": "S",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 41,
+            "AAs": "K",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 43,
+            "AAs": "R",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 72,
+            "AAs": "V",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 93,
+            "AAs": "ILV",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          }
+        ]
+      },
+      {
+        "firstAA": 1,
+        "lastAA": 343,
+        "gene": {
+          "name": "RT",
+          "length": null
+        },
+        "mutations": [
+          {
+            "consensus": "V",
+            "position": 35,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 39,
+            "AAs": "S",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "M",
+            "position": 41,
+            "AAs": "L",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 60,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 86,
+            "AAs": "E",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 179,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 200,
+            "AAs": "A",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 211,
+            "AAs": "K",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 238,
+            "AAs": "R",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 288,
+            "AAs": "S",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 293,
+            "AAs": "V",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 297,
+            "AAs": "A",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 326,
+            "AAs": "V",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 334,
+            "AAs": "E",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          }
+        ]
+      }
+    ],
+    "drugResistance": [
+      {
+        "version": {
+          "text": "8.8",
+          "publishDate": "2019-02-13"
+        },
+        "gene": {
+          "name": "PR"
+        },
+        "drugScores": [
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "ATV",
+              "displayAbbr": "ATV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "DRV",
+              "displayAbbr": "DRV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "FPV",
+              "displayAbbr": "FPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "IDV",
+              "displayAbbr": "IDV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "LPV",
+              "displayAbbr": "LPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "NFV",
+              "displayAbbr": "NFV"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "SQV",
+              "displayAbbr": "SQV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "TPV",
+              "displayAbbr": "TPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          }
+        ]
+      },
+      {
+        "version": {
+          "text": "8.8",
+          "publishDate": "2019-02-13"
+        },
+        "gene": {
+          "name": "RT"
+        },
+        "drugScores": [
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "ABC",
+              "displayAbbr": "ABC"
+            },
+            "score": 5.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "M41L",
+                    "primaryType": "NRTI",
+                    "comments": [
+                      {
+                        "type": "NRTI",
+                        "text": "M41L is a TAM that usually occurs with T215Y. In combination, M41L plus T215Y confer intermediate / high-level resistance to AZT and d4T and contribute to reduced ddI, ABC and TDF susceptibility."
+                      }
+                    ]
+                  }
+                ],
+                "score": 5.0
+              }
+            ],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "AZT",
+              "displayAbbr": "AZT"
+            },
+            "score": 15.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "M41L",
+                    "primaryType": "NRTI",
+                    "comments": [
+                      {
+                        "type": "NRTI",
+                        "text": "M41L is a TAM that usually occurs with T215Y. In combination, M41L plus T215Y confer intermediate / high-level resistance to AZT and d4T and contribute to reduced ddI, ABC and TDF susceptibility."
+                      }
+                    ]
+                  }
+                ],
+                "score": 15.0
+              }
+            ],
+            "text": "Low-Level Resistance"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "D4T",
+              "displayAbbr": "D4T"
+            },
+            "score": 15.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "M41L",
+                    "primaryType": "NRTI",
+                    "comments": [
+                      {
+                        "type": "NRTI",
+                        "text": "M41L is a TAM that usually occurs with T215Y. In combination, M41L plus T215Y confer intermediate / high-level resistance to AZT and d4T and contribute to reduced ddI, ABC and TDF susceptibility."
+                      }
+                    ]
+                  }
+                ],
+                "score": 15.0
+              }
+            ],
+            "text": "Low-Level Resistance"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "DDI",
+              "displayAbbr": "DDI"
+            },
+            "score": 10.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "M41L",
+                    "primaryType": "NRTI",
+                    "comments": [
+                      {
+                        "type": "NRTI",
+                        "text": "M41L is a TAM that usually occurs with T215Y. In combination, M41L plus T215Y confer intermediate / high-level resistance to AZT and d4T and contribute to reduced ddI, ABC and TDF susceptibility."
+                      }
+                    ]
+                  }
+                ],
+                "score": 10.0
+              }
+            ],
+            "text": "Potential Low-Level Resistance"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "FTC",
+              "displayAbbr": "FTC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "LMV",
+              "displayAbbr": "3TC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "TDF",
+              "displayAbbr": "TDF"
+            },
+            "score": 5.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "M41L",
+                    "primaryType": "NRTI",
+                    "comments": [
+                      {
+                        "type": "NRTI",
+                        "text": "M41L is a TAM that usually occurs with T215Y. In combination, M41L plus T215Y confer intermediate / high-level resistance to AZT and d4T and contribute to reduced ddI, ABC and TDF susceptibility."
+                      }
+                    ]
+                  }
+                ],
+                "score": 5.0
+              }
+            ],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "DOR",
+              "displayAbbr": "DOR"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "EFV",
+              "displayAbbr": "EFV"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "ETR",
+              "displayAbbr": "ETR"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "NVP",
+              "displayAbbr": "NVP"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "RPV",
+              "displayAbbr": "RPV"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          }
+        ]
+      }
+    ]
+  }
+]

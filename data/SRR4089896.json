@@ -1,0 +1,2932 @@
+[
+  {
+    "inputSequence": {
+      "header": "SRR4089896_1_SRR4089896_2_1_hxb2_pol"
+    },
+    "subtypeText": "B",
+    "validationResults": [],
+    "alignedGeneSequences": [
+      {
+        "firstAA": 1,
+        "lastAA": 99,
+        "gene": {
+          "name": "PR",
+          "length": null
+        },
+        "mutations": [
+          {
+            "consensus": "K",
+            "position": 14,
+            "AAs": "KR",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 35,
+            "AAs": "D",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 37,
+            "AAs": "D",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 41,
+            "AAs": "K",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 61,
+            "AAs": "N",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 63,
+            "AAs": "P",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "H",
+            "position": 69,
+            "AAs": "QH",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 70,
+            "AAs": "R",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 77,
+            "AAs": "T",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          }
+        ]
+      },
+      {
+        "firstAA": 1,
+        "lastAA": 560,
+        "gene": {
+          "name": "RT",
+          "length": null
+        },
+        "mutations": [
+          {
+            "consensus": "V",
+            "position": 35,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 39,
+            "AAs": "A",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 60,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 79,
+            "AAs": "D",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 83,
+            "AAs": "K",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 86,
+            "AAs": "A",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 90,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 138,
+            "AAs": "A",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 162,
+            "AAs": "H",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 196,
+            "AAs": "DG",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 200,
+            "AAs": "IV",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 211,
+            "AAs": "Q",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 245,
+            "AAs": "EV",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 272,
+            "AAs": "P",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 276,
+            "AAs": "I",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 277,
+            "AAs": "R",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 293,
+            "AAs": "IV",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 297,
+            "AAs": "K",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 324,
+            "AAs": "ED",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 329,
+            "AAs": "L",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 333,
+            "AAs": "E",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 344,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 345,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "F",
+            "position": 346,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 347,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 348,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 349,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 350,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 351,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 352,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 353,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Y",
+            "position": 354,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 355,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 356,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "M",
+            "position": 357,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 358,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 359,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 360,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "H",
+            "position": 361,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 362,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 363,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 364,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 365,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 366,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 367,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 368,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 369,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 370,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 371,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 372,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 373,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 374,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 375,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 376,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 377,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 378,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 379,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 380,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 381,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 382,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 383,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 384,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 385,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 386,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 387,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 388,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "F",
+            "position": 389,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 390,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 391,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 392,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 393,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 394,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 395,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 396,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 397,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 398,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 399,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 400,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 401,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 402,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 403,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 404,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Y",
+            "position": 405,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 406,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 407,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 408,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 409,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 410,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 411,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 412,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 413,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 414,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 415,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "F",
+            "position": 416,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 417,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 418,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 419,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 420,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 421,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 422,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 423,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 424,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 425,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 426,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Y",
+            "position": 427,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 428,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 429,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 430,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 431,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 432,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 433,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 434,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 435,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 436,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 437,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 438,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 439,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "F",
+            "position": 440,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Y",
+            "position": 441,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 442,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 443,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 444,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 445,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 446,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 447,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 448,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 449,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 450,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 451,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 452,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 453,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 454,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 455,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 456,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Y",
+            "position": 457,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 458,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 459,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 460,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 461,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 462,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 463,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 464,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 465,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 466,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 467,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 468,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 469,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 470,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 471,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 472,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 473,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 474,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 475,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 476,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 477,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 478,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 479,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 480,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 481,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 482,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "H",
+            "position": 483,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 484,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 485,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 486,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 487,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 488,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 489,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 490,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 491,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 492,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 493,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 494,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 495,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 496,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 497,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 498,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 499,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 500,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Y",
+            "position": 501,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 502,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 503,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 504,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 505,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 506,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 507,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 508,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 509,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 510,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 511,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 512,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 513,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 514,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 515,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 516,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 517,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 518,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 519,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 520,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 521,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 522,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 523,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 524,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 525,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 526,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 527,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 528,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 529,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 530,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 531,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Y",
+            "position": 532,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 533,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 534,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 535,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 536,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 537,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 538,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "H",
+            "position": 539,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 540,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 541,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 542,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 543,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 544,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 545,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 546,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 547,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 548,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 549,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 550,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 551,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 552,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 553,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 554,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 555,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 556,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 557,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 558,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 559,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          }
+        ]
+      },
+      {
+        "firstAA": 1,
+        "lastAA": 179,
+        "gene": {
+          "name": "IN",
+          "length": null
+        },
+        "mutations": [
+          {
+            "consensus": "F",
+            "position": 1,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 2,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 3,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 4,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 5,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 6,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 7,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 8,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 9,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 10,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 11,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "H",
+            "position": 12,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 13,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 14,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Y",
+            "position": 15,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "H",
+            "position": 16,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 17,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 18,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 19,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "R",
+            "position": 20,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 21,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "M",
+            "position": 22,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 23,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 24,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 25,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "F",
+            "position": 26,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "N",
+            "position": 27,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 28,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 29,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 30,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 31,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 32,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 33,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 34,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 35,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 36,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 37,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 38,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 39,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "C",
+            "position": 40,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 41,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 42,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "C",
+            "position": 43,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 44,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 45,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "K",
+            "position": 46,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 47,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 48,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "A",
+            "position": 49,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "M",
+            "position": 50,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "H",
+            "position": 51,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 52,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 53,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "V",
+            "position": 54,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 55,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "C",
+            "position": 56,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 57,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "P",
+            "position": 58,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "G",
+            "position": 59,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "I",
+            "position": 60,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "W",
+            "position": 61,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "Q",
+            "position": 62,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 63,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "D",
+            "position": 64,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "C",
+            "position": 65,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 66,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "H",
+            "position": 67,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "L",
+            "position": 68,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "E",
+            "position": 69,
+            "AAs": "X",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "S",
+            "position": 119,
+            "AAs": "P",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          },
+          {
+            "consensus": "T",
+            "position": 124,
+            "AAs": "A",
+            "isInsertion": false,
+            "isDeletion": false,
+            "isApobecDRM": false
+          }
+        ]
+      }
+    ],
+    "drugResistance": [
+      {
+        "version": {
+          "text": "8.8",
+          "publishDate": "2019-02-13"
+        },
+        "gene": {
+          "name": "PR"
+        },
+        "drugScores": [
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "ATV",
+              "displayAbbr": "ATV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "DRV",
+              "displayAbbr": "DRV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "FPV",
+              "displayAbbr": "FPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "IDV",
+              "displayAbbr": "IDV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "LPV",
+              "displayAbbr": "LPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "NFV",
+              "displayAbbr": "NFV"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "SQV",
+              "displayAbbr": "SQV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "PI"
+            },
+            "drug": {
+              "name": "TPV",
+              "displayAbbr": "TPV/r"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          }
+        ]
+      },
+      {
+        "version": {
+          "text": "8.8",
+          "publishDate": "2019-02-13"
+        },
+        "gene": {
+          "name": "RT"
+        },
+        "drugScores": [
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "ABC",
+              "displayAbbr": "ABC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "AZT",
+              "displayAbbr": "AZT"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "D4T",
+              "displayAbbr": "D4T"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "DDI",
+              "displayAbbr": "DDI"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "FTC",
+              "displayAbbr": "FTC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "LMV",
+              "displayAbbr": "3TC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NRTI"
+            },
+            "drug": {
+              "name": "TDF",
+              "displayAbbr": "TDF"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "DOR",
+              "displayAbbr": "DOR"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "EFV",
+              "displayAbbr": "EFV"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "ETR",
+              "displayAbbr": "ETR"
+            },
+            "score": 10.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "E138A",
+                    "primaryType": "NNRTI",
+                    "comments": [
+                      {
+                        "type": "NNRTI",
+                        "text": "E138A is a common polymorphic accessory mutation weakly selected in patients receiving ETR and RPV. It reduces ETR and RPV susceptibility ~2-fold. It has a weight of 1.5 in the Tibotec ETR genotypic susceptibility score."
+                      }
+                    ]
+                  }
+                ],
+                "score": 10.0
+              }
+            ],
+            "text": "Potential Low-Level Resistance"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "NVP",
+              "displayAbbr": "NVP"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "NNRTI"
+            },
+            "drug": {
+              "name": "RPV",
+              "displayAbbr": "RPV"
+            },
+            "score": 15.0,
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "E138A",
+                    "primaryType": "NNRTI",
+                    "comments": [
+                      {
+                        "type": "NNRTI",
+                        "text": "E138A is a common polymorphic accessory mutation weakly selected in patients receiving ETR and RPV. It reduces ETR and RPV susceptibility ~2-fold. It has a weight of 1.5 in the Tibotec ETR genotypic susceptibility score."
+                      }
+                    ]
+                  }
+                ],
+                "score": 15.0
+              }
+            ],
+            "text": "Low-Level Resistance"
+          }
+        ]
+      },
+      {
+        "version": {
+          "text": "8.8",
+          "publishDate": "2019-02-13"
+        },
+        "gene": {
+          "name": "IN"
+        },
+        "drugScores": [
+          {
+            "drugClass": {
+              "name": "INSTI"
+            },
+            "drug": {
+              "name": "BIC",
+              "displayAbbr": "BIC"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI"
+            },
+            "drug": {
+              "name": "DTG",
+              "displayAbbr": "DTG"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI"
+            },
+            "drug": {
+              "name": "EVG",
+              "displayAbbr": "EVG"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI"
+            },
+            "drug": {
+              "name": "RAL",
+              "displayAbbr": "RAL"
+            },
+            "score": 0.0,
+            "partialScores": [],
+            "text": "Susceptible"
+          }
+        ]
+      }
+    ]
+  }
+]
